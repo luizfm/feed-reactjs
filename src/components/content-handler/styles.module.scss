@@ -1,0 +1,17 @@
+.content-text,
+.link {
+  margin-top: 1rem;
+}
+
+.link {
+  font-weight: bold;
+  color: var(--green-500);
+
+  &:hover {
+    color: var(--green-300);
+  }
+
+  &:not(:first-of-type) {
+    margin-left: 0.5rem;
+  }
+}
